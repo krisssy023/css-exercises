@@ -10,7 +10,37 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  
+  /* edited by me */
+  display: flex;
+  flex: 1 1 auto;
+  justify-content:center;
+  margin-bottom: 32px;
+  /* edited by me */
 }
+/* edited by me */
+.berries-info {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  column-gap: 52px;
+  margin : 0px 52px 0px ;
+ 
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.text {
+  width: 200px;
+  text-align: center;
+  
+  
+}
+/* edited by me */
 
 /* do not edit this footer */
 .footer {
