@@ -2,9 +2,13 @@
 
 body {
   height: 100vh;
-  margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-flow: column;
+  /* edited by me */
+  margin: 0;
+  /* edited by me */
 }
 
 img {
@@ -24,4 +28,54 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+/* edited by me */
+
+a {
+  text-decoration: none;
+  color :black ;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap : 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.footer {
+  background-color: #eeeeee;
+  display: flex;
+  flex-flow: row;
+}
+
+.header {
+  display: flex;
+  gap : 10px;
+}
+
+.input {
+  margin: auto;
+}
+
+.right {
+margin-left: auto;
+padding-right: 2.2%;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  color :black ;
+  gap : 20px; 
+}
+
+li {
+  display: inline;
 }
