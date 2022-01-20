@@ -8,7 +8,14 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  /* coded by me */
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
 }
+/* coded by me */
 
 .footer {
   height: 72px;
@@ -25,4 +32,57 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding : 32px;
+  /* coded by me */
+  width: 20%;
+  margin: 15px;
+  /* coded by me */
+  
 }
+/* coded by me */
+a {
+  color:white;
+  text-decoration: none;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+ padding: 32px;
+ 
+}
+
+.content {
+  display: flex;
+  flex-flow: row;
+  flex: 1 1 auto;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.sidebar{
+  width: 300px;
+  flex-shrink: 0;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+ul {
+  font-size: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
+
