@@ -10,9 +10,11 @@ body {
   background: #aaa;
   color: #333;
   /* I'll give you this one for free lol */
+
   display: flex;
   align-items: center;
   justify-content: center;
+ 
 }
 
 .modal {
@@ -20,8 +22,42 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* edited by me*/
+  padding : 15px;
+  /* edited by me */
+
+}
+/* edited by me */
+.content {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
 }
 
+.content-no-concan {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.header-text{
+  width: 85%;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+.header {
+  font-size:120%;
+}
+
+.concan {
+  display: flex;
+  padding-left: 10%;
+  gap : 5px ;
+}
+
+/* edited by me */
 .icon {
   color: royalblue;
   font-size: 26px;
